@@ -21,4 +21,20 @@ The Four Pillars of Object-Oriented Programming:
 Encapsulation
 In my opinion, encapsulation (data hiding) is the most powerful feature of C++. 
 
+-------------------------------------------------------
+C++ Syntax
+-------------------------------------------------------
+
+Class - A recioe for an Object
+
+Inheritance - Building objects by combining classes
+
+Polymorphism - Operator and function overloading
+
+
+
+
+
+
+
 
