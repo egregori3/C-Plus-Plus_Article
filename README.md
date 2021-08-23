@@ -53,10 +53,25 @@ Compile time polymorphism - virtual functions
 cppcheck
 
 --------------------------------------------------------
+C++ Standard Library - libstdc++
+--------------------------------------------------------
+
+https://gcc.gnu.org/onlinedocs/libstdc++/
+
+--------------------------------------------------------
+C++ Standard Template Library (STL)
+--------------------------------------------------------
+
+
+
+
+--------------------------------------------------------
 Coding Standards
 --------------------------------------------------------
 
 NASA C++ Coding Standard - https://ntrs.nasa.gov/api/citations/20080039927/downloads/20080039927.pdf?attachment=true
+
+Google C++ Style Guide - https://google.github.io/styleguide/cppguide.html
 
 
 
@@ -65,9 +80,21 @@ NASA C++ Coding Standard - https://ntrs.nasa.gov/api/citations/20080039927/downl
 Online C++ Resources
 -------------------------------------------------------
 
+The creator of C++ - https://www.stroustrup.com/C++.html
+
+C++ Tutorials - https://www.w3schools.com/CPP/default.asp
+
+C++ Tutorials - https://www.learncpp.com/
+
+C++ Reference - https://en.cppreference.com/w/
+
+https://www.cplusplus.com/
+
 Practical C++ Programming - http://117.211.166.170:8080/jspui/bitstream/123456789/1578/1/O_REILLY___PRACTICAL_C___PR.PDF
 
 Boost Library Reference - http://www.xwood.net/docs/pdf/Beyond%20the%20C++%20Standard%20Library_201611291716.pdf
+
+Official C++ Language Standard - http://www.open-std.org/jtc1/sc22/wg21/
 
 
 
