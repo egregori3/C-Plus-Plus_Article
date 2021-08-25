@@ -73,7 +73,17 @@ NASA C++ Coding Standard - https://ntrs.nasa.gov/api/citations/20080039927/downl
 
 Google C++ Style Guide - https://google.github.io/styleguide/cppguide.html
 
+ISO C++ Codeing Standard - https://isocpp.org/wiki/faq/coding-standards
 
+Bjarne Stroustrup's C++ Style and Technique FAQ - https://www.stroustrup.com/bs_faq2.html
+
+Stanford C++ Style Guide - https://web.stanford.edu/class/cs106b/resources/style_guide.html
+
+Unreal C++ Coding Standard - https://docs.unrealengine.com/4.26/en-US/ProductionPipelines/DevelopmentSetup/CodingStandard/
+
+GCC Coding Conventions - https://gcc.gnu.org/codingconventions.html
+
+NorthWestern C/C++ Style Guidde - https://users.cs.northwestern.edu/~riesbeck/programming/c++/c++-style.html
 
 
 -------------------------------------------------------
@@ -86,15 +96,29 @@ C++ Tutorials - https://www.w3schools.com/CPP/default.asp
 
 C++ Tutorials - https://www.learncpp.com/
 
+C++ Tutorials - https://www.tutorialspoint.com/cplusplus/cpp_references.htm
+
+C++ Tutorials with Online Compiler - https://www.programiz.com/cpp-programming
+
+C++ Tutorial Video - https://www.youtube.com/watch?v=vLnPwxZdW4Y
+
+C++ Tutorial Video - https://www.youtube.com/watch?v=GQp1zzTwrIg
+
+C++ Reference and Tutorials- https://www.cplusplus.com/
+
 C++ Reference - https://en.cppreference.com/w/
 
-https://www.cplusplus.com/
+Micorsoft C++ Reference - https://docs.microsoft.com/en-us/cpp/cpp/?view=msvc-160
 
 Practical C++ Programming - http://117.211.166.170:8080/jspui/bitstream/123456789/1578/1/O_REILLY___PRACTICAL_C___PR.PDF
 
 Boost Library Reference - http://www.xwood.net/docs/pdf/Beyond%20the%20C++%20Standard%20Library_201611291716.pdf
 
 Official C++ Language Standard - http://www.open-std.org/jtc1/sc22/wg21/
+
+Standard C++ - https://isocpp.org/
+
+
 
 
 
