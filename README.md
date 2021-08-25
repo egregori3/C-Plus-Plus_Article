@@ -27,12 +27,21 @@ modeled as objects and follows bottom up approach for program design methodology
 
 https://www.youtube.com/watch?v=pTB0EiLXUC8&t=325s
 
+https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1206/lectures/c++-classes/
+
 The Four Pillars of Object-Oriented Programming:
 
 Encapsulation
+
 In my opinion, encapsulation (data hiding) is the most powerful feature of C++. 
+It is good programming practice to always minimize scope.
+Variables should only be accessable by functions that require access.
+C++ allows for variables to be bound directly to funcions within a class.
+The programmer can specify the scope of a variable or function in a class using access specifiers (https://en.cppreference.com/w/cpp/language/access).
 
 Abstraction
+
+
 
 Inheritance
 
