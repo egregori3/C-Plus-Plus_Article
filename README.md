@@ -2,7 +2,9 @@ Overview of C++ with links to online resources
 
 There is a wealth of information online about C++. The purpose of this article is to provide a path for students by pointing them to the online material. In this article, I provide links to resources along with summaries of the resource contents. Consider a "map" of online resources for learning C++.
 
-https://www.youtube.com/watch?v=wyABTfR9UTU
+Before diving deep into C++, this video explains the differences between programming languages from a very unique angle: https://www.youtube.com/watch?v=wyABTfR9UTU
+
+I found this video to be a bit of a rant, but the history of programming languages presented is fascinating: https://www.youtube.com/watch?v=P2yr-3F6PQo&t=0s
 
 https://www.stroustrup.com/hopl2.pdf
 
@@ -45,19 +47,34 @@ The programmer can specify the scope of a variable or function in a class using 
 
 Abstraction
 
-http://web.cecs.pdx.edu/~karlaf/CS202_Slides/Topic2.pdf
+https://www.educative.io/edpresso/what-is-abstraction-in-programming
 
-"The most important aspect of C++ is its ability to support many different programming paradigms"
+"Abstraction is used to hide background details or any unnecessary implementation about the data so that users only see the required information. It is one of the most important and essential features of object-oriented programming."
+
+After you learn how to drive a car, you can "drive" almost any car. This is an example of abstraction. The brake, accelerator, and steering wheel are an interface to a black box. Once you learn to use the interface, you do not need to understand how the black box works in order to use it. The functioning of the car is abstracted from the user; only the interface is presented to the user.
+
+
+http://web.cecs.pdx.edu/~karlaf/CS202_Slides/Topic2.pdf
 
 procedural abstraction - "..  a “fence” around program segments, preventing some parts of the program from “seeing” how tasks are being accomplished.
 modular abstraction - " ... a “screen” surrounding the internal structure of our program prohibiting programmers from accessing the data except through specified functions.
 data abstraction - "With data abstraction we think about what operations can be performed on a particular type of data and not how it does it."
 
+
+Polymorphism
+
+https://www.geeksforgeeks.org/polymorphism-in-c/
+
+"The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form."
+
+Polymorphism is a key 
+
+
 Inheritance
 
 
 
-Polymorphism
+
 
 -------------------------------------------------------
 C++ Syntax
@@ -68,6 +85,8 @@ Class - A recipe for an Object
 
 
 Inheritance - Building objects by combining classes
+
+https://eng.libretexts.org/Courses/Delta_College/C_-_Data_Structures/05%3A_Polymorphism/5.1%3A_Polymorphism_in_C
 
 Runtime polymorphism - Operator and function overloading
 
