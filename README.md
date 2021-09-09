@@ -1,4 +1,4 @@
-* Overview of C++ with links to online resources *
+** Overview of C++ with links to online resources **
 
 ---------------------------------------------------------
 Introduction
