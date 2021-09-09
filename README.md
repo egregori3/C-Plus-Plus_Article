@@ -1,4 +1,8 @@
-Overview of C++ with links to online resources
+* Overview of C++ with links to online resources *
+
+---------------------------------------------------------
+Introduction
+---------------------------------------------------------
 
 There is a wealth of information online about C++. The purpose of this article is to provide a path for students by pointing them to the online material. In this article, I provide links to resources along with summaries of the resource contents. Consider a "map" of online resources for learning C++.
 
@@ -7,6 +11,8 @@ Before diving deep into C++, this video explains the differences between program
 I found this video to be a bit of a rant, but the history of programming languages presented is fascinating: https://www.youtube.com/watch?v=P2yr-3F6PQo&t=0s
 
 ----------------------------------------------------------
+Overview of C++
+-----------------------------------------------------------
 
 https://www.stroustrup.com/hopl2.pdf
 
