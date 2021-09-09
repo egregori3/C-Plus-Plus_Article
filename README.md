@@ -6,6 +6,8 @@ Before diving deep into C++, this video explains the differences between program
 
 I found this video to be a bit of a rant, but the history of programming languages presented is fascinating: https://www.youtube.com/watch?v=P2yr-3F6PQo&t=0s
 
+----------------------------------------------------------
+
 https://www.stroustrup.com/hopl2.pdf
 
 "C allows quite low- level operations such as bit manipulation and choosing between different sizes of integers. There are also facilities, such as explicit unchecked type conversions, for deliberately breaking the type system. C with Classes and later C++ follow this path by retaining the low- level and unsafe features of C. In contrast to C, C++ systematically eliminates the need to use such features except where they are essential and performs unsafe operations only at the explicit request of the programmer."
@@ -32,6 +34,8 @@ modeled as objects and follows bottom up approach for program design methodology
 https://www.youtube.com/watch?v=pTB0EiLXUC8&t=325s
 
 https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1206/lectures/c++-classes/
+
+---------------------------------------------------------------------------------------
 
 The Four Pillars of Object-Oriented Programming:
 
@@ -127,6 +131,7 @@ GCC Coding Conventions - https://gcc.gnu.org/codingconventions.html
 
 NorthWestern C/C++ Style Guidde - https://users.cs.northwestern.edu/~riesbeck/programming/c++/c++-style.html
 
+Linux Coding Stabdard - https://www.kernel.org/doc/html/latest/process/coding-style.html
 
 -------------------------------------------------------
 Online C++ Resources
