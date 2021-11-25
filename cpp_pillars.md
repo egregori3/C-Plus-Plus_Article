@@ -4,6 +4,7 @@ C++ is an Object Oriented language
 
 C++ is an object oriented language. In this context, an object is a container holding data and functions. The container binds the data to the functions required to access and manipulate the data protecting the data from external entities. An object is a "black box" described by the software designer for the purpose of protecting data; allowing only the minimum access required to make the overall system work. If designed correctly, objects facilitate code reusability and can be combined to create complex systems. Designing programs around the concept of objects is called object-oriented programming (OOP).
 
+https://www.youtube.com/watch?v=kp9RmrJp1GQ
 
 ---------------------------------------------------------------------------------------
 The Four Pillars of Object-Oriented Programming:
