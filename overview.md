@@ -26,8 +26,6 @@ https://www.youtube.com/watch?v=kp9RmrJp1GQ
 
 C++ is an object oriented language. In this context, an object is a container holding data and functions. The container binds the data to the functions required to access and manipulate the data protecting the data from external entities. An object is a "black box" described by the software designer for the purpose of protecting data; allowing only the minimum access required to make the overall system work. If designed correctly, objects facilitate code reusability and can be combined to create complex systems. Designing programs around the concept of objects is called object-oriented programming (OOP).  
 
-https://d1wqtxts1xzle7.cloudfront.net/61597464/An_Overview_of_C__C___-A_Case_of_Engineering_Faculty_120191224-96814-nkbkyr.pdf?1577188947=&response-content-disposition=inline%3B+filename%3DAn_Overview_of_C_and_C_A_Case_of_Enginee.pdf&Expires=1629582672&Signature=JKttU1cQ8HSE~vnJuWkE8OWYHTccTnozxt182var9e5dE1cjL-ioLdgtqBGelH4ClHtygZowk7dDiO2EZnlEZi44UfkY-1UTDpJAOD97Xa9X4HNbfbFq52CpdisgU5zAGD-bArW34gOux6MkWDEXKFDsNEWY~bZtWL3JAQkWd~Iwutk97FVmpU~Hjmpn~04GzJApmJT9t2nMj8AfhKzX6XoajBlv6UZuQreH990nhbx-sLZeLZaXGHSeErUwf05MrWq~0KoGUdj2PlWqqeRxdOkQuWHA3IC78-m2v2c6bplZh5QM6F4O32PA5MpJbDaBbnEjWBnewq9r7yezTfIwxQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
-
 "Features of C++:
 Object, class, abstraction, encapsulations, inheritance, reusability, polymorphism,
 dynamic binding and message passing are the major features of C++ [9]. The other
