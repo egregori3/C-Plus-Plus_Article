@@ -2,9 +2,18 @@
 C++ is an Object Oriented language
 ----------------------------------------------------------------------------------------
 
+There are many great on-line resources covering C++. The purpose of this article is to provide students with links to these resources in an easy to use format. I quote the resource to provide context and provide a link to enable the student to get more information. I reference Youtube videos because feedback from modern students indicate some prefer Youtube videos. This article is available on Github at: https://github.com/egregori3/C-Plus-Plus_Article   If you know of a good resource not listed, please fork the article, add a summary and a link to the resource.
+
 C++ is an object oriented language. In this context, an object is a container holding data and functions. The container binds the data to the functions required to access and manipulate the data protecting the data from external entities. An object is a "black box" described by the software designer for the purpose of protecting data; allowing only the minimum access required to make the overall system work. If designed correctly, objects facilitate code reusability and can be combined to create complex systems. Designing programs around the concept of objects is called object-oriented programming (OOP).
 
 https://www.youtube.com/watch?v=kp9RmrJp1GQ
+
+An object is created by the compiler based on a recipe or template; the recipe is called a class. The software engineer creates a class (recipe) to describe the object to the compiler. The compiler generates code to build the object in memory at compile time. When the object is instantiated at run-time, the generated code is executed and the object is build in memory. "A class template by itself is not a type, or an object, or any other entity. No code is generated from a source file that contains only template definitions. In order for any code to appear, a template must be instantiated: the template arguments must be provided so that the compiler can generate an actual class (or function, from a function template)"
+
+https://en.cppreference.com/w/cpp/language/class_template
+
+Great material from a MIT online C++ course: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-088-introduction-to-c-memory-management-and-c-object-oriented-programming-january-iap-2010/lecture-notes/ 
+
 
 ---------------------------------------------------------------------------------------
 The Four Pillars of Object-Oriented Programming:
