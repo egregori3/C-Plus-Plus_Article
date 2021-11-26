@@ -14,12 +14,16 @@ https://en.cppreference.com/w/cpp/language/class_template
 
 Great material from a MIT online C++ course: https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-088-introduction-to-c-memory-management-and-c-object-oriented-programming-january-iap-2010/lecture-notes/ 
 
+Resources from the creator of C++: https://www.stroustrup.com/C++.html
+
+Guidelines for writing professional C++ code from the creator of C++: http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+
 
 ---------------------------------------------------------------------------------------
 The Four Pillars of Object-Oriented Programming:
 ---------------------------------------------------------------------------------------
 
-Encapsulation
+## Encapsulation
 
 "Preventing unauthorized access to some piece of information or functionality." https://isocpp.org/wiki/faq/classes-and-objects
 
@@ -29,7 +33,7 @@ variables should only be accessable by functions that require access.
 C++ allows for variables to be bound directly to funcions within a class.
 The programmer can specify the scope of a variable or function in a class using access specifiers (https://en.cppreference.com/w/cpp/language/access).
 
-Abstraction
+## Abstraction
 
 https://www.educative.io/edpresso/what-is-abstraction-in-programming
 
@@ -45,7 +49,7 @@ modular abstraction - " ... a “screen” surrounding the internal structure of
 data abstraction - "With data abstraction we think about what operations can be performed on a particular type of data and not how it does it."
 
 
-Polymorphism
+## Polymorphism
 
 https://www.geeksforgeeks.org/polymorphism-in-c/
 
@@ -54,5 +58,8 @@ https://www.geeksforgeeks.org/polymorphism-in-c/
 Polymorphism is a key 
 
 
-Inheritance
+## Inheritance
 
+"Inheritance is a mechanism of reusing and extending existing classes without modifying them, thus producing hierarchical relationships between them. Inheritance lets you include the names and definitions of another class's members as part of a new class. The class whose members you want to include in your new class is called a base class. Your new class is derived from the base class. The new class contains a subobject of the type of the base class. You can derive a class from any number of base classes. Deriving a class from more than one direct base class is called multiple inheritance."
+
+https://www.ibm.com/docs/en/zos/2.4.0?topic=reference-inheritance-c-only
