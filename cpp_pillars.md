@@ -20,7 +20,7 @@ Guidelines for writing professional C++ code from the creator of C++: http://iso
 
 
 ---------------------------------------------------------------------------------------
-The Four Pillars of Object-Oriented Programming:
+The Four Pillars of Object-Oriented Programming
 ---------------------------------------------------------------------------------------
 
 ## Encapsulation
@@ -32,6 +32,9 @@ It is good programming practice to always minimize scope;
 variables should only be accessable by functions that require access.
 C++ allows for variables to be bound directly to funcions within a class.
 The programmer can specify the scope of a variable or function in a class using access specifiers (https://en.cppreference.com/w/cpp/language/access).
+
+### Class Access Specifiers
+
 
 ## Abstraction
 
@@ -63,3 +66,16 @@ Polymorphism is a key
 "Inheritance is a mechanism of reusing and extending existing classes without modifying them, thus producing hierarchical relationships between them. Inheritance lets you include the names and definitions of another class's members as part of a new class. The class whose members you want to include in your new class is called a base class. Your new class is derived from the base class. The new class contains a subobject of the type of the base class. You can derive a class from any number of base classes. Deriving a class from more than one direct base class is called multiple inheritance."
 
 https://www.ibm.com/docs/en/zos/2.4.0?topic=reference-inheritance-c-only
+
+---------------------------------------------------------------------------------------
+Class Types
+---------------------------------------------------------------------------------------
+
+- Base Class
+- Derived Class
+- Abstract Class
+- Singleton
+
+
+
+
