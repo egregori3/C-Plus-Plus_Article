@@ -80,6 +80,33 @@ Polymorphism is a key
 
 https://www.ibm.com/docs/en/zos/2.4.0?topic=reference-inheritance-c-only
 
+"C++ inheritance is an enormous topic with all sorts of nuances, far more than we can reasonably cover in
+a single handout. If you're interested, here are some topics you might want to consider reading into:"
+
+"**Multiple Inheritance:** One of C++'s most complicated and most contested feature is multiple
+inheritance, the ability to have a class inherit from two or more base classes. Multiple inheritance
+can be quite useful, especially if some of the base classes are abstract. Otherwise, you'll run into
+disambiguation issues, virtual inheritance, and the infamous “deadly diamond of death.”
+Many professional C++ programmers advise against multiple inheritance, but it's important to
+know about because it can be a useful tool."
+
+"**Private Inheritance:** Have you ever wondered why when inheriting from a base class you write
+public before the name of the class? It's because there is another form of inheritance called
+private inheritance by writing private and then the class name. Private inheritance is
+fundamentally different from public inheritance and represents the “is-implemented-in-terms-of”
+relationship instead of “is-a.” Private inheritance is uncommon in practice, but you should be
+aware that it exists."
+
+http://web.stanford.edu/class/archive/cs/cs106b/cs106b.1084/cs106l/handouts/250_Inheritance_2.pdf
+
+"A member (either data member or member function) declared in a **private** section of a class can only be accessed by member functions and friends of that class"
+
+"A member (either data member or member function) declared in a **protected** section of a class can only be accessed by member functions and friends of that class, and by member functions and friends of derived classes"
+
+"A member (either data member or member function) declared in a **public** section of a class can be accessed by anyone"
+
+https://isocpp.org/wiki/faq/basics-of-inheritance
+
 ---------------------------------------------------------------------------------------
 Class Types
 ---------------------------------------------------------------------------------------
@@ -89,6 +116,16 @@ Class Types
 - Abstract Class
 - Singleton
 
+---------------------------------------------------------------------------------------
+Overloading versus Overriding
+---------------------------------------------------------------------------------------
+
+"A great source of C++ confusion is the difference between function overloads and function overrides. A
+function overload is a function with the same name as another function but with different parameters. For
+example, the following two functions are overloads of one another:"
+"On the other hand, a function override is a redefinition of a virtual function in a derived class. "
+
+http://web.stanford.edu/class/archive/cs/cs106b/cs106b.1084/cs106l/handouts/250_Inheritance_2.pdf
 
 
 
