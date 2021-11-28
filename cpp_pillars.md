@@ -35,6 +35,19 @@ The programmer can specify the scope of a variable or function in a class using 
 
 ### Class Access Specifiers
 
+#### public
+
+" A public member of a class is accessible anywhere in the program where the class itself is visible and accessible."
+
+#### private
+
+"A private member of a class is accessible only to members and friends of that class."
+
+#### protected
+
+"A protected member of a class is accessible only to members and friends of that class or to members and friends of classes derived from that class."
+
+https://www.embedded.com/access-specifiers-and-class-member-allocation-order/
 
 ## Abstraction
 
