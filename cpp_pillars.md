@@ -22,9 +22,15 @@ Guidelines for writing professional C++ code from the creator of C++: http://iso
 
 My favorite C++ resource: https://isocpp.org/faq
 
+One of my favorite on-line C++ courses: https://www.youtube.com/watch?v=iVLQeWbgbXs&t=201s
+
 ---------------------------------------------------------------------------------------
 The Four Pillars of Object-Oriented Programming
 ---------------------------------------------------------------------------------------
+
+https://www.youtube.com/watch?v=m_MQYyJpIjg
+
+https://www.youtube.com/watch?v=wN0x9eZLix4
 
 ## Encapsulation
 
@@ -37,6 +43,8 @@ C++ allows for variables to be bound directly to funcions within a class.
 The programmer can specify the scope of a variable or function in a class using access specifiers (https://en.cppreference.com/w/cpp/language/access).
 
 ### Class Access Specifiers
+
+https://www.youtube.com/watch?v=iVLQeWbgbXs&t=201s
 
 #### public
 
@@ -97,6 +105,8 @@ https://www.javatpoint.com/cpp-overloading
 
 ## Inheritance
 
+https://www.youtube.com/watch?v=qYY9eR7Ldek
+
 "Inheritance is a mechanism of reusing and extending existing classes without modifying them, thus producing hierarchical relationships between them. Inheritance lets you include the names and definitions of another class's members as part of a new class. The class whose members you want to include in your new class is called a base class. Your new class is derived from the base class. The new class contains a subobject of the type of the base class. You can derive a class from any number of base classes. Deriving a class from more than one direct base class is called multiple inheritance."
 
 https://www.ibm.com/docs/en/zos/2.4.0?topic=reference-inheritance-c-only
@@ -140,6 +150,8 @@ In C++, we have 5 different types of Inheritance. Namely,
 "In this type of inheritance one derived class inherits from only one base class. It is the most simplest form
 of Inheritance."
 
+https://www.youtube.com/watch?v=VmDUgxflYSQ
+
 #### Multiple Inheritance
 "In this type of inheritance a single derived class may inherit from two or more than two base classes."
 
@@ -160,6 +172,8 @@ https://home.csulb.edu/~pnguyen/cecs282/lecnotes/inheritance.pdf
 Class Types
 ---------------------------------------------------------------------------------------
 
+https://www.youtube.com/watch?v=DAnz06-Xq1s
+
 - Base Class
 
 "The Base Class, also known as the Parent Class or the Super Class is a class, from which other classes are derived. In other term it is a base class for other derived classes. That means if a derived class which inherits the base class has all members of a base class as well as can also have some additional properties. The Base class members and member functions are inherited to object of the derived class."
@@ -178,11 +192,13 @@ https://learncplusplus.org/de/learn-c-inheritance-base-classes-and-derived-class
 
 https://www.educative.io/edpresso/what-is-a-cpp-abstract-class
 
+https://www.youtube.com/watch?v=T8f4ajtFU9g
+
 - Interface Class
 
 ""
 
-
+https://www.youtube.com/watch?v=tBrf6PRCyfY
 
 - Singleton
 
