@@ -18,6 +18,9 @@ Resources from the creator of C++: https://www.stroustrup.com/C++.html
 
 Guidelines for writing professional C++ code from the creator of C++: http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 
+"What’s “Super” about this FAQ? In part it’s because this is a merger of two great FAQs: Marshall Cline’s C++ FAQs, and Bjarne Stroustrup’s C++ FAQ. And in part it’s because this is a wiki being continuously updated for modern C++. There are some FAQ topics not yet updated; if you spot one, suggest an improvement using the link on the bar for that FAQ."
+
+My favorite C++ resource: https://isocpp.org/faq
 
 ---------------------------------------------------------------------------------------
 The Four Pillars of Object-Oriented Programming
@@ -57,13 +60,11 @@ https://www.educative.io/edpresso/what-is-abstraction-in-programming
 
 After you learn how to drive a car, you can "drive" almost any car. This is an example of abstraction. The brake, accelerator, and steering wheel are an interface to a black box. Once you learn to use the interface, you do not need to understand how the black box works in order to use it. The functioning of the car is abstracted from the user; only the interface is presented to the user.
 
-
 http://web.cecs.pdx.edu/~karlaf/CS202_Slides/Topic2.pdf
 
 procedural abstraction - "..  a “fence” around program segments, preventing some parts of the program from “seeing” how tasks are being accomplished.
 modular abstraction - " ... a “screen” surrounding the internal structure of our program prohibiting programmers from accessing the data except through specified functions.
 data abstraction - "With data abstraction we think about what operations can be performed on a particular type of data and not how it does it."
-
 
 ## Polymorphism
 
@@ -71,8 +72,28 @@ https://www.geeksforgeeks.org/polymorphism-in-c/
 
 "The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form."
 
-Polymorphism is a key 
+### Two Types of Polymorphism
 
+#### Compile time polymorphism
+
+"The overloaded functions are invoked by matching the type and number of arguments. This information is available at the compile time and, therefore, compiler selects the appropriate function at the compile time. It is achieved by function overloading and operator overloading which is also known as static binding or early binding."
+
+#### Run time polymorphism
+
+"Run time polymorphism is achieved when the object's method is invoked at the run time instead of compile time. It is achieved by method overriding which is also known as dynamic binding or late binding."
+
+The link below has a detailed table describing the different between the two types of Polymorphism:
+https://www.javatpoint.com/cpp-polymorphism
+
+### C++ Function Overloading
+
+"Function Overloading is defined as the process of having two or more function with the same name, but different in parameters is known as function overloading in C++. In function overloading, the function is redefined by using either different types of arguments or a different number of arguments. It is only through these differences compiler can differentiate between the functions."
+
+### C++ Operators Overloading
+
+"Operator overloading is a compile-time polymorphism in which the operator is overloaded to provide the special meaning to the user-defined data type. Operator overloading is used to overload or redefines most of the operators available in C++. It is used to perform the operation on the user-defined data type. For example, C++ provides the ability to add the variables of the user-defined data type that is applied to the built-in data types."
+
+https://www.javatpoint.com/cpp-overloading
 
 ## Inheritance
 
@@ -107,13 +128,62 @@ http://web.stanford.edu/class/archive/cs/cs106b/cs106b.1084/cs106l/handouts/250_
 
 https://isocpp.org/wiki/faq/basics-of-inheritance
 
+### Types of Inheritance
+In C++, we have 5 different types of Inheritance. Namely,
+1. Single Inheritance
+2. Multiple Inheritance
+3. Hierarchical Inheritance
+4. Multilevel Inheritance
+5. Hybrid Inheritance (also known as Virtual Inheritance)
+
+#### Single Inheritance
+"In this type of inheritance one derived class inherits from only one base class. It is the most simplest form
+of Inheritance."
+
+#### Multiple Inheritance
+"In this type of inheritance a single derived class may inherit from two or more than two base classes."
+
+#### Hierarchical Inheritance
+"In this type of inheritance, multiple derived classes inherits from a single base class."
+
+#### Multilevel Inheritance
+"In this type of inheritance the derived class inherits from a class, which in turn inherits from some other
+class. The Super class for one, is sub class for the other."
+
+#### Hybrid (Virtual) Inheritance
+Hybrid Inheritance is combination of Hierarchical and Mutilevel Inheritance.
+
+For more info and some helpful diagrams:
+https://home.csulb.edu/~pnguyen/cecs282/lecnotes/inheritance.pdf
+
 ---------------------------------------------------------------------------------------
 Class Types
 ---------------------------------------------------------------------------------------
 
 - Base Class
+
+"The Base Class, also known as the Parent Class or the Super Class is a class, from which other classes are derived. In other term it is a base class for other derived classes. That means if a derived class which inherits the base class has all members of a base class as well as can also have some additional properties. The Base class members and member functions are inherited to object of the derived class."
+
+https://learncplusplus.org/de/learn-c-inheritance-base-classes-and-derived-classes/
+
 - Derived Class
+
+"The Derived Class, also known as Child Class or SubClass, is a class that is created from an existing class. The derived class inherits all members and member functions of a base class. The derived class can have more functionality with respect to the Base class and can easily access the Base class."
+
+https://learncplusplus.org/de/learn-c-inheritance-base-classes-and-derived-classes/
+
 - Abstract Class
+
+"By definition, an abstract class in C++ is a class that has at least one pure virtual function (i.e., a function that has no definition). The classes inheriting the abstract class must provide a definition for the pure virtual function; otherwise, the subclass would become an abstract class itself."
+
+https://www.educative.io/edpresso/what-is-a-cpp-abstract-class
+
+- Interface Class
+
+""
+
+
+
 - Singleton
 
 ---------------------------------------------------------------------------------------
