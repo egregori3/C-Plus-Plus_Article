@@ -21,6 +21,7 @@ Guidelines for writing professional C++ code from the creator of C++: http://iso
 "What’s “Super” about this FAQ? In part it’s because this is a merger of two great FAQs: Marshall Cline’s C++ FAQs, and Bjarne Stroustrup’s C++ FAQ. And in part it’s because this is a wiki being continuously updated for modern C++. There are some FAQ topics not yet updated; if you spot one, suggest an improvement using the link on the bar for that FAQ."
 
 My favorite C++ resource: https://isocpp.org/faq
+https://github.com/isocpp/CppCoreGuidelines
 
 One of my favorite on-line C++ courses: https://www.youtube.com/watch?v=iVLQeWbgbXs&t=201s
 
