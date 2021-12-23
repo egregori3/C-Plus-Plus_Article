@@ -224,6 +224,7 @@ https://betterprogramming.pub/inheritance-vs-composition-2fa0cdd2f939
 "Composition is in contrast to inheritance, it enables the creation of complex types by combining objects (components) of other types, rather than inheriting from a base or parent class. To put it simply, composition contains instances of other classes that implement the desired functionality."
 
 "Inheritance: “is a.” E.g. The car **is a** vehicle."
+
 "Composition: “has a.” E.g. The car **has a** steering wheel."
 
 
