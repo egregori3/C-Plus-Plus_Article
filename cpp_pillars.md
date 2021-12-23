@@ -33,6 +33,8 @@ https://www.youtube.com/watch?v=m_MQYyJpIjg
 
 https://www.youtube.com/watch?v=wN0x9eZLix4
 
+https://cs.smu.ca/~porter/csc/common_341_342/notes/oop_3pillars.html
+
 ## Encapsulation
 
 "Preventing unauthorized access to some piece of information or functionality." https://isocpp.org/wiki/faq/classes-and-objects
@@ -147,14 +149,20 @@ In C++, we have 5 different types of Inheritance. Namely,
 4. Multilevel Inheritance
 5. Hybrid Inheritance (also known as Virtual Inheritance)
 
+"A base class is one from which others are derived, while a derived class is one defined as an extension of another class."
+"A derived class often overrides one or more of the member functions in the base class, thereby changing the behavior (but not the interface) of that member function. A derived class will often also extend the base class by adding new member functions, with or without overriding base class functions."
+
 #### Single Inheritance
 "In this type of inheritance one derived class inherits from only one base class. It is the most simplest form
 of Inheritance."
+
+"single inheritance, which is the mechanism by which one class (called the derived class) acquires the properties (data and operations) of another class (called the base class)"
 
 https://www.youtube.com/watch?v=VmDUgxflYSQ
 
 #### Multiple Inheritance
 "In this type of inheritance a single derived class may inherit from two or more than two base classes."
+"multiple inheritance, which is the mechanism by which one class acquires the properties of two or more base classes"
 
 #### Hierarchical Inheritance
 "In this type of inheritance, multiple derived classes inherits from a single base class."
@@ -191,6 +199,8 @@ https://learncplusplus.org/de/learn-c-inheritance-base-classes-and-derived-class
 
 "By definition, an abstract class in C++ is a class that has at least one pure virtual function (i.e., a function that has no definition). The classes inheriting the abstract class must provide a definition for the pure virtual function; otherwise, the subclass would become an abstract class itself."
 
+"Sometimes a derived class can also be used for realization. That is, sometimes a derived class actually needs to implement one or more member functions that have not been implemented in the base class. This gives us the notion of an abstract base class (or, simply, an abstract class), which is a class used only to derive other classes, and which cannot be used to create an object. In order to be an abstract class, the class must contain at least one pure virtual function."
+
 https://www.educative.io/edpresso/what-is-a-cpp-abstract-class
 
 https://www.youtube.com/watch?v=T8f4ajtFU9g
@@ -202,6 +212,21 @@ https://www.youtube.com/watch?v=T8f4ajtFU9g
 https://www.youtube.com/watch?v=tBrf6PRCyfY
 
 - Singleton
+
+---------------------------------------------------------------------------------------
+Inheritance vs. Composition
+---------------------------------------------------------------------------------------
+
+https://betterprogramming.pub/inheritance-vs-composition-2fa0cdd2f939
+
+"To make a long story short, when a child class inherits from a parent class, the child acquires all behaviors from the parent. Inheritance will make a class hierarchy — you can imagine it as a tree of classes."
+
+"Composition is in contrast to inheritance, it enables the creation of complex types by combining objects (components) of other types, rather than inheriting from a base or parent class. To put it simply, composition contains instances of other classes that implement the desired functionality."
+
+"Inheritance: “is a.” E.g. The car **is a** vehicle."
+"Composition: “has a.” E.g. The car **has a** steering wheel."
+
+
 
 ---------------------------------------------------------------------------------------
 Overloading versus Overriding
