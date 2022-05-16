@@ -26,10 +26,10 @@ https://www.youtube.com/watch?v=kp9RmrJp1GQ
 
 C++ is a general-purpose programming language with a
 bias towards systems programming that
-– is a better C
-– supports data abstraction
-– supports object-oriented programming
-– supports generic programming
+* is a better C
+* supports data abstraction
+* supports object-oriented programming
+* supports generic programming
 
 https://ewh.ieee.org/r5/central_texas/austin_cs/presentations/2004.02.25.pdf
 
